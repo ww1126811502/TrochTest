@@ -42,7 +42,7 @@ optim = torch.optim.SGD(mymodle.parameters(), lr=learning_rate)
 # 声明一些计数变量
 total_train_step = 0
 total_test_step = 0
-epoch = 10
+epoch = 20
 # 添加tensorboard
 writer = SummaryWriter("logs")
 

@@ -65,6 +65,7 @@ class MyModule(nn.Module):
             Linear(1024, 64),
             Linear(64, 10)
         )
+        self.type = ['飞机', '手机', '鸟', '猫', '鹿', '狗', '青蛙', '马', '船', '树干']
 
     def forward(self, x):
         x = self.model1(x)
