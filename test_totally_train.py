@@ -2,13 +2,11 @@
 # @Time : 2022/7/13 8:03
 # @Author : 牧川
 # @File : test_totally_train.py
-import datetime
 
 import torchvision
 import torch.nn
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
-
 from nn_CIFAR10 import MyModule
 
 #初始化一个device
